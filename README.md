@@ -1,6 +1,6 @@
-# jg
+# db2struct
 --
-jg - json to go struct
+dbstrucy - mysql to go struct
 
 
 // Emit the package declaration
@@ -13,10 +13,8 @@ jg - json to go struct
  ...
 // A boolean indicating whether the given package is a command or a plain package
 
-jg
-// The name of the package/command (string)
 
-github.com/seiji/jg
+github.com/seiji/go-db2struct
 // The import path for the package (string)
 // (This field will be the empty string if godocdown is unable to guess it)
 
